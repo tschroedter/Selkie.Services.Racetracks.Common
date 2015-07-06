@@ -78,7 +78,6 @@
     <Compile Include="Messages\XUnit\RacetrackSettingsChangedMessageTests.cs" />
     <Compile Include="Messages\XUnit\RacetrackSettingsSetMessageTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Dto\XUnit\LineDtoTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Selkie.Services.Racetracks.Common\Selkie.Services.Racetracks.Common.csproj">

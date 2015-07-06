@@ -50,13 +50,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dto\LineDto.cs" />
+    <Compile Include="Dto\RacetracksDto.cs" />
     <Compile Include="Messages\CostMatrixCalculateMessage.cs" />
     <Compile Include="Messages\CostMatrixChangedMessage.cs" />
     <Compile Include="Messages\CostMatrixGetMessage.cs" />
     <Compile Include="Messages\LinesChangedMessage.cs" />
     <Compile Include="Messages\LinesSetMessage.cs" />
+    <Compile Include="Messages\RacetracksChangedMessage.cs" />
     <Compile Include="Messages\RacetrackSettingsChangedMessage.cs" />
+    <Compile Include="Messages\RacetrackSettingsGetMessage.cs" />
     <Compile Include="Messages\RacetrackSettingsSetMessage.cs" />
+    <Compile Include="Messages\RacetracksGetMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

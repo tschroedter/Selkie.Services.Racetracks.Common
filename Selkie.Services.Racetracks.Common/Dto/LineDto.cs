@@ -7,8 +7,8 @@ namespace Selkie.Services.Racetracks.Common.Dto
         public int Id;
         public bool IsUnknown;
 
-        [CanBeNull]
-        public string RunDirection;
+        [NotNull]
+        public string RunDirection = string.Empty;
 
         public double X1;
         public double X2;
