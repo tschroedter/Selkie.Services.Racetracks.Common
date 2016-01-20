@@ -1,4 +1,4 @@
-﻿using Selkie.Services.Racetracks.Common.Dto;
+﻿using Selkie.Services.Common.Dto;
 
 namespace Selkie.Services.Racetracks.Common.Messages
 {

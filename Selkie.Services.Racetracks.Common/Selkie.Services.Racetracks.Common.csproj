@@ -40,6 +40,10 @@
       <HintPath>..\packages\JetBrains.Annotations.9.2.0\lib\net20\JetBrains.Annotations.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Selkie.Services.Common.Dto, Version=0.6.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selkie.Services.Common.Dto.0.6.10.0\lib\net45\Selkie.Services.Common.Dto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,8 +53,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dto\LineDto.cs" />
-    <Compile Include="Dto\RacetracksDto.cs" />
     <Compile Include="Messages\CostMatrixCalculateMessage.cs" />
     <Compile Include="Messages\CostMatrixChangedMessage.cs" />
     <Compile Include="Messages\CostMatrixGetMessage.cs" />

@@ -50,6 +50,10 @@
       <HintPath>..\packages\AutoFixture.Xunit.3.21.1\lib\net40\Ploeh.AutoFixture.Xunit.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Selkie.Services.Common.Dto, Version=0.6.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selkie.Services.Common.Dto.0.6.10.0\lib\net45\Selkie.Services.Common.Dto.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Selkie.XUnit.Extensions, Version=0.6.71.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selkie.XUnit.Extensions.0.6.71.0\lib\net45\Selkie.XUnit.Extensions.dll</HintPath>
       <Private>True</Private>
@@ -80,14 +84,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Selkie.Services.Racetracks.Common\Selkie.Services.Racetracks.Common.csproj">
       <Project>{e1f27e43-bf28-4d92-8c9e-77c665295d35}</Project>
       <Name>Selkie.Services.Racetracks.Common</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
