@@ -14,7 +14,8 @@ namespace Selkie.Services.Racetracks.Common.Tests.Messages.XUnit
         {
             var nessage = new RacetrackSettingsChangedMessage
                           {
-                              TurnRadiusInMetres = 100.0,
+                              TurnRadiusForPort = 100.0,
+                              TurnRadiusForStarboard = 200.0,
                               IsPortTurnAllowed = true,
                               IsStarboardTurnAllowed = true
                           };
@@ -45,7 +46,7 @@ namespace Selkie.Services.Racetracks.Common.Tests.Messages.XUnit
         }
 
         [Fact]
-        public void TurnRadiusTest()
+        public void TurnRadiusForPortTest()
         {
             // assemble
             // act
@@ -53,7 +54,19 @@ namespace Selkie.Services.Racetracks.Common.Tests.Messages.XUnit
 
             // assert
             Assert.Equal(100.0,
-                         requestMessage.TurnRadiusInMetres);
+                         requestMessage.TurnRadiusForPort);
+        }
+
+        [Fact]
+        public void TurnRadiusForStarboardTest()
+        {
+            // assemble
+            // act
+            RacetrackSettingsChangedMessage requestMessage = CreateMessage();
+
+            // assert
+            Assert.Equal(200.0,
+                         requestMessage.TurnRadiusForStarboard);
         }
     }
 }

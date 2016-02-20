@@ -4,6 +4,7 @@
     {
         public bool IsPortTurnAllowed;
         public bool IsStarboardTurnAllowed;
-        public double TurnRadiusInMetres;
+        public double TurnRadiusForPort;
+        public double TurnRadiusForStarboard;
     }
 }
