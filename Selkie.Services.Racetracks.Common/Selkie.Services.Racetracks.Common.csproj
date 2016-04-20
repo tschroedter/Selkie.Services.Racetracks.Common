@@ -36,12 +36,12 @@
     </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JetBrains.Annotations, Version=9.2.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
-      <HintPath>..\packages\JetBrains.Annotations.9.2.0\lib\net20\JetBrains.Annotations.dll</HintPath>
+    <Reference Include="JetBrains.Annotations, Version=10.0.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
+      <HintPath>..\packages\JetBrains.Annotations.10.0.0\lib\net20\JetBrains.Annotations.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Selkie.Services.Common.Dto, Version=0.6.10.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Selkie.Services.Common.Dto.0.6.10.0\lib\net45\Selkie.Services.Common.Dto.dll</HintPath>
+    <Reference Include="Selkie.Services.Common.Dto, Version=0.6.17.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selkie.Services.Common.Dto.0.6.17.0\lib\net45\Selkie.Services.Common.Dto.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -54,14 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Messages\CostMatrixCalculateMessage.cs" />
-    <Compile Include="Messages\CostMatrixChangedMessage.cs" />
-    <Compile Include="Messages\CostMatrixGetMessage.cs" />
-    <Compile Include="Messages\LinesChangedMessage.cs" />
-    <Compile Include="Messages\LinesSetMessage.cs" />
-    <Compile Include="Messages\RacetracksChangedMessage.cs" />
-    <Compile Include="Messages\RacetrackSettingsChangedMessage.cs" />
-    <Compile Include="Messages\RacetrackSettingsGetMessage.cs" />
-    <Compile Include="Messages\RacetrackSettingsSetMessage.cs" />
+    <Compile Include="Messages\CostMatrixResponseMessage.cs" />
+    <Compile Include="Messages\CostMatrixRequestMessage.cs" />
+    <Compile Include="Messages\RacetracksResponseMessage.cs" />
     <Compile Include="Messages\RacetracksGetMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
