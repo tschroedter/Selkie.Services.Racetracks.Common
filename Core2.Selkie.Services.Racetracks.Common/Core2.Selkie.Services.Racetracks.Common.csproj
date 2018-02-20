@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <PackageTags>Selkie Services Racetracks Common Core2</PackageTags>
+    <Copyright>Copyright © Thomas Schroedter 2017</Copyright>
+    <PackageLicenseUrl>https://github.com/tschroedter/Selkie.Services.Racetracks.Common/blob/dotnetcore2/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/tschroedter/Selkie.Services.Racetracks.Common/tree/dotnetcore2</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/tschroedter/Selkie/blob/master/LaptopDeskPerson.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/tschroedter/Selkie.Services.Racetracks.Common/tree/dotnetcore2</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
