@@ -185,3 +185,4 @@ UpgradeLog*.htm
 FakesAssemblies/
 *.bak
 NuGet.Selkie.Services.Racetracks.Common/lib/net45/Selkie.Services.Racetracks.Common.dll
+/.vs/Selkie.Services.Racetracks.Common/v15/Server/sqlite3

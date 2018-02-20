@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27323.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{47ED9E31-5480-453E-906B-A0688C4D7061}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,6 +13,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selkie.Services.Racetracks.Common.Tests", "Selkie.Services.Racetracks.Common.Tests\Selkie.Services.Racetracks.Common.Tests.csproj", "{B958BC2B-C9ED-4BF6-B250-8B9ED136E8CC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet.Selkie.Services.Racetracks.Common", "NuGet.Selkie.Services.Racetracks.Common\NuGet.Selkie.Services.Racetracks.Common.csproj", "{8D39025B-1B33-42BA-99BD-2C8E595871AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2.Selkie.Services.Racetracks.Common", "Core2.Selkie.Services.Racetracks.Common\Core2.Selkie.Services.Racetracks.Common.csproj", "{760D3B13-11C7-4604-9851-53AE87B54680}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DA11C3A9-F9AD-4B98-B249-2B48340D1C5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core2.Selkie.Services.Racetracks.Common.Tests", "Core2.Selkie.Services.Racetracks.Common.Tests\Core2.Selkie.Services.Racetracks.Common.Tests.csproj", "{88B6F8A5-4645-4626-8472-577D755F3E9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,8 +38,22 @@ Global
 		{8D39025B-1B33-42BA-99BD-2C8E595871AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D39025B-1B33-42BA-99BD-2C8E595871AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D39025B-1B33-42BA-99BD-2C8E595871AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{760D3B13-11C7-4604-9851-53AE87B54680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{760D3B13-11C7-4604-9851-53AE87B54680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{760D3B13-11C7-4604-9851-53AE87B54680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{760D3B13-11C7-4604-9851-53AE87B54680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B6F8A5-4645-4626-8472-577D755F3E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B6F8A5-4645-4626-8472-577D755F3E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B6F8A5-4645-4626-8472-577D755F3E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B6F8A5-4645-4626-8472-577D755F3E9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88B6F8A5-4645-4626-8472-577D755F3E9D} = {DA11C3A9-F9AD-4B98-B249-2B48340D1C5C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C17FC491-19FB-4C7C-A80F-15EB2240ABA6}
 	EndGlobalSection
 EndGlobal
