@@ -1,6 +1,6 @@
 using System;
-using JetBrains.Annotations;
 using Core2.Selkie.Services.Common.Dto;
+using JetBrains.Annotations;
 
 namespace Core2.Selkie.Services.Racetracks.Common.Messages
 {
